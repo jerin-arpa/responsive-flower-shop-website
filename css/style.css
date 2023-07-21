@@ -309,6 +309,9 @@ footer {
 /* responsive related style */
 /* For Mobile device */
 @media screen and (max-width:576px) {
+    body {
+        overflow-x: hidden !important;
+    }
 
     .banner,
     .featured-box,
